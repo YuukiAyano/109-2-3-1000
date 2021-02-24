@@ -11,7 +11,7 @@
 int main()
 {
     int max = 0, min = 0, input = 0;
-    for (int counter = 0; counter <= 10; counter++)
+    for (int counter = 0; counter < 10; counter++)
     {
         scanf("%d", &input);
         if (input > max)
